@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    border: 1px solid lightgrey;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+}
+.navbar{
+    width: 990px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.logo-img{
+    height: 40px;
+}
+.signup{
+    text-decoration: none;
+    font-size: 15px;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(42, 157, 245);;
+}
+.login{
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-style: inherit;
+    background-color: rgb(34, 149, 236);
+    padding: 8px 16px;
+    color: white;
+    margin-right: 15px;
+}
+.main-container{
+    width: 990px;
+    padding: 40px auto;
+    margin: 10px auto;
+    /* border: 1px solid lightgrey; */
+}
+.upper-container{
+    padding: 50px ;
+    display: flex;
+    gap: 50px;
+}
+.inner-container{
+    width: 990px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.google-img{
+    height: 200px;
+    border-radius: 50%;
+    border: 0.50px double lightgrey;
+}
+.svg-tick{
+   display: flex; 
+   gap: 8px;
+   font-size: 0;
+   align-items: center;
+   padding-bottom: 7px;
+   font-family: 'Arial';
+}
+.blue-tick{
+    height: 20px;
+    fill: rgb(34, 149, 236);
+}
+.btn-flw-msg{
+    border-radius: 10px;
+    border: none;
+    padding: 5px 15px;
+    font-size: 16px;
+}
+.posts-numbers{
+    font-size: 14px;
+    font-weight: bolder;
+    align-items: center;
+}
+.story-img{
+    display: flex;
+    gap: 60px;
+    padding: 0px 50px;
+    text-align: center;
+}
+.img{
+    border-radius: 50%;
+    border: 5px lightgrey;
+    height: 80px;
+    border-style: double;
+}
+.caption{
+    display: block;
+    font-size: 12px;
+    margin-top: 12px;
+    font-weight: bolder;
+}
+.lower-container{
+    border-top: 1px solid lightgray;
+    width: 990px;
+    margin: 40px auto;
+   
+}
+.top-bar{
+    display: flex;
+    gap: 60px;
+    font-size: 12px;
+    width: max-content;
+    margin: auto;
+    padding: 10px;
+}
+.top-bar-display{
+    display: flex;
+    gap: 8px;
+}
+.posts{
+    width: 990px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.post-img{
+    height:315px;
+}
+.svg{
+    height: 15px;
+}
+.thread{
+    width: 75px;
+    height: 32px;
+    display: flex;
+    gap: 5px;
+    padding: 0px 5px;
+    align-items: center;
+    font-size: 12px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(234, 233, 233);
+}
+.link{
+    display: flex;
+    gap: 7px;
+    align-items: center;
+}
+.link-tag{
+    height: 12px;
+}
+.insta-add{
+    display: inline-block;
+    font-size: 14px;
+    font-family: "Nunito", sans-serif;
+    margin: 0;
+}
+
